@@ -15,7 +15,7 @@ public class videolist1 implements ActionListener {
 		
 		// TODO Auto-generated method stub
 		JFrame videolist1 = new JFrame("廖冠霖");
-		videolist1.setExtendedState(JFrame.MAXIMIZED_BOTH);
+		videolist1.setSize(2880, 1800);
 		videolist1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JLabel lblAngelaSorry = new JLabel("ANGELA SORRY");

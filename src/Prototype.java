@@ -4,7 +4,7 @@ import javax.swing.*;
 public class Prototype { 
     public static void main(String[] args) { 
         JFrame category = new JFrame();
-        category.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        category.setSize(2880, 1800);
         category.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         category.getContentPane().setLayout(new GridLayout(4,2));
